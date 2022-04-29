@@ -1,0 +1,105 @@
+
+
+.hero {
+    background-color: rgba(5, 51, 111, 0.897);
+    width: 100%;
+    height: 250px;
+}
+
+.hero h1 {
+  padding-top: 3%;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100px;
+}
+
+.top, .middle, .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.top img {
+  width: 80%;
+  height: auto;
+  border: 10px solid black;
+  margin: 1%;
+}
+
+.bottom img {
+  width: 80%;
+  height: auto;
+  border: 10px solid black;
+  margin: 1%;
+}
+
+.middle {
+  margin: 0.4%;
+}
+
+.ref-title {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.references {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0a7c86b0;
+    padding: 2%;
+    height: 150px;
+}
+
+.references a {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.references img {
+  height: auto;
+  width: 50px;
+  padding: 5px;
+}
+
+.team-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+}
+.teamInfo img {
+    border-radius: 50%;
+    padding: 5px;
+    height: 150px;
+    width: 150px;
+    background-color: whitesmoke;
+}
+
+.teamInfo {
+    background-color: #151414b0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 4%;
+}
+
+.teamInfo h3 {
+   text-align: center;
+   color: rgb(253, 253, 253);
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-family: cursive;
+}
